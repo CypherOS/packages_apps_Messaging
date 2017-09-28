@@ -13,7 +13,9 @@
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
---><resources>
+-->
+<resources>
     <color name="aoscp_accent">#3a63ce</color>
     <color name="button_text">#000000</color>
+    <color name="ic_launcher_background">#ff2a56c6</color>
 </resources>
