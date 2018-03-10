@@ -17,7 +17,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Swipe to delete conversation -->
+  <string name="swipe_to_delete_conversation_pref_title">Glisează pentru a șterge</string>
+  <string name="swipe_to_delete_conversation_pref_summary">Glisează spre dreapta pentru a șterge o conversație</string>
   <!-- Show emoticons -->
+  <string name="show_emoticons_pref_title">Acces emoticoane</string>
+  <string name="show_emoticons_pref_summary">Afișează tasta emoticoane pe tastatură</string>
   <!-- Audio Library Tab for MMS attachments -->
+  <string name="mediapicker_galleryChooserDescription_cm">Alege imagini sau video-uri din acest
+        dispozitiv</string>
+  <string name="mediapicker_audioListChooserDescription">Alege fișiere audio din acest
+        dispozitiv</string>
+  <string name="mediapicker_gallery_image_item_attachment_too_large">Nu poate atașa video.
+        Mărimea maximă a mesajului a fost depășită.</string>
+  <string name="mediapicker_audio_list_title">Alege audio</string>
+  <string name="mediapicker_audio_list_item_selected_content_description">Audio selectat</string>
+  <string name="mediapicker_audio_list_item_unselected_content_description">Apasă pentru a selecta</string>
+  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selectat
+    </string>
   <!-- Shortcuts -->
+  <string name="shortcuts_compose_new">Mesaj nou</string>
 </resources>
