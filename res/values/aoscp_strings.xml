@@ -35,12 +35,13 @@
     <string name="mediapicker_audio_list_item_unselected_content_description">Tap to select</string>
     <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected
     </string>
-	
-	<!-- Shortcuts -->
+
+    <!-- Shortcuts -->
     <string name="shortcuts_compose_new">New message</string>
 
-	<!-- Mark message as read -->
+    <!-- Mark message as read -->
     <string name="notification_mark_as_read">Mark as read</string>
+    <string name="notification_channel_processing_title">Background operations</string>
 
     <!-- Notification channel -->
     <string name="notification_channel_title">Messages</string>
