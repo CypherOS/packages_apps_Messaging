@@ -41,6 +41,7 @@
 
 	<!-- Mark message as read -->
     <string name="notification_mark_as_read">Mark as read</string>
+	<string name="notification_channel_processing_title">Background operations</string>
 
     <!-- Notification channel -->
     <string name="notification_channel_title">Messages</string>
