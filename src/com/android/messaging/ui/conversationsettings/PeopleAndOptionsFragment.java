@@ -50,8 +50,7 @@ import com.android.messaging.ui.PersonItemView;
 import com.android.messaging.ui.UIIntents;
 import com.android.messaging.ui.conversation.ConversationActivity;
 import com.android.messaging.util.Assert;
-
-import org.lineageos.messaging.util.NotifUtils;
+import com.android.messaging.util.NotificationChannelController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -123,14 +122,14 @@ public class PeopleAndOptionsFragment extends Fragment
     public void onOptionsItemViewClicked(final PeopleOptionsItemData item) {
         switch (item.getItemId()) {
             case PeopleOptionsItemData.SETTING_NOTIFICATION:
-                NotifUtils.createNotificationChannelGroup(getActivity(),
-                        NotifUtils.CONVERSATION_GROUP_NAME,
-                        R.string.notification_channel_messages_title);
-                NotifUtils.createNotificationChannel(getActivity(),
+                NotificationChannelController.createNotificationChannelGroup(getActivity(),
+                        NotificationChannelController.CONVERSATION_GROUP_NAME,
+                        R.string.notification_channel_title);
+                NotificationChannelController.createNotificationChannel(getActivity(),
                         mBinding.getData().getConversationId(),
                         item.getOtherParticipant().getDisplayName(true),
                         NotificationManager.IMPORTANCE_DEFAULT,
-                        NotifUtils.CONVERSATION_GROUP_NAME);
+                        NotificationChannelController.CONVERSATION_GROUP_NAME);
                 Intent intent = new Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS);
                 intent.putExtra(Settings.EXTRA_APP_PACKAGE, getContext().getPackageName());
                 startActivity(intent);
